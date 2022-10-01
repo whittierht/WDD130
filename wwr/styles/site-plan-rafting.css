@@ -37,6 +37,18 @@ body {
   font-size: 18px;
   text-align: center;
 }
+
+header {
+  font-size: medium;
+  
+
+}
+
+nav {
+  margin:auto;
+  font-family: var(--heading-font);
+}
+
 img {
   display: block;
   margin: 0 auto;
