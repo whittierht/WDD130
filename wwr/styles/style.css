@@ -1,3 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital@1&family=Rock+Salt&display=swap');
+
+:root{
+    --heading-font: "Rock Salt";
+    --paragraph-font: Raleway, Helvetica, sans-serif;
+}
+
+#logo_link {
+    padding-top: 5px;
+}
+
+.home-title {
+    font-size: 2em;
+    font-family: var(--heading-font); ;
+}
+
 #content {
     max-width:1600px;
     margin: 0 auto;
@@ -9,6 +25,14 @@
 
 body {
     background-color: #fcfbfb; 
+    font-family: var(--paragraph-font);
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin: 0;
 }
 
 header {
@@ -19,6 +43,7 @@ nav a {
     text-align: center;
     color: #fcfbfb;
     text-decoration: none;
+    padding: 35px;
 }    
 
 nav a:hover {
@@ -32,6 +57,7 @@ nav a:hover {
 
 .home-title {
     color:rgb(0, 0, 0);
+    margin-top: 10px;
 }
 
 h4 {
@@ -42,10 +68,22 @@ h4 {
     color:rgb(67, 83, 158);
     text-align: center;
     text-decoration: none;
+    font-family:var(--paragraph-font);
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 200px;
+    border-radius: 5px;
+    background-color: #d9c2a3;
 }
 
 .book:hover, .join:hover {
     color: black;
+}
+
+.msg{
+    background-color: rgb(159, 209, 209);
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 .msg h2 {
@@ -53,7 +91,14 @@ h4 {
 }
 
 .msg p {
-    color:rgb(62, 105, 105);
+    color:rgb(0, 0, 0);
+    font-size: .8em;
+    font-family:var(--paragraph-font);
+    padding-bottom: 15px;
+}
+
+.icon {
+    padding-top: 10px;
 }
 
 #hero-msg h1, #hero-msg h4 {
@@ -76,7 +121,13 @@ nav a {
 
 .card-img {
     width: 400px;
+    margin: 200px 0;
+    border: 10px solid #d9c2a3;
 
+}
+
+main section img {
+    box-sizing: border-box;
 }
 
 .icon {
@@ -94,6 +145,8 @@ nav a {
 
 footer {
     background-color:rgba(54, 129, 129, 0.7);
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer p {
@@ -115,8 +168,12 @@ footer a:hover {
     color: rgba(33, 120, 68, 0.7);
 }
 
+footer .social img{
+    padding-top: 15px;
+}
+
 #fb{
-    width: 75px;
+    width: 150px;
 }
 
 #twit {
