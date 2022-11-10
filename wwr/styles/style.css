@@ -171,7 +171,7 @@ main {
 
 .card-img:hover {
     opacity: .6;
-    transform: scale(1.1;);
+    transform: scale(1.1);
     border: 20px solid black;
 }
 

@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital@1&family=Rock+Salt&display=swap');
+
+:root{
+    --heading-font: "Rock Salt";
+    --paragraph-font: Raleway, Helvetica, sans-serif;
+}
+
+
+
+.home-title {
+    font-size: 2em;
+    font-family: var(--heading-font); ;
+}
+
+#content {
+    max-width:1600px;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 85px;
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+    grid-column-start: 1;
+}
+
+body {
+    background-color: #fcfbfb; 
+    font-family: var(--paragraph-font);
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin: auto;
+    font-family: var(--heading-font);
+    font-size:15px;
+    padding-bottom: 10px;
+    padding-top: 100px;
+    
+}
+
+header {
+    background-color:rgba(54, 129, 129, 0.7);
+    display: grid;
+    grid-template-columns: 150px auto;
+    height: 100px;
+    border: 5px solid #d9c2a3;
+    
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    grid-column-start: 2;
+   
+}
+
+
+nav a {
+    text-align: center;
+    color: #fcfbfb;
+    text-decoration: none;
+    padding: 35px;
+}    
+
+nav a:hover {
+    background-color: rgb(12, 224, 220);
+    color: rgba(33, 120, 68, 0.7);
+}
+
+main {
+    display: grid;
+}
+
+main img:hover {
+    border: 5px solid black;
+    opacity: .6;
+}
+
+p:hover {
+    border:1px solid black;
+    transform:scale(1.5);
+    transition-duration: .3s;
+    
+}
+.river1 {
+    grid-column: 2/4;
+    grid-row: 2/3;
+
+}
+
+.riverimg {
+    
+    border: 10px solid #d9c2a3;
+    box-shadow: 5px 5px 10px #6f7364;
+    width:300px;
+    height: 300px;
+}
+
+.description1 {
+    grid-column: 2/4;
+    grid-row: 3/5;
+    width:320px;
+    margin:0;
+    
+}
+
+.river2 {
+    grid-column: 5/7;
+    grid-row: 2/3;
+}
+
+.riverimg2 {
+    border: 10px solid #d9c2a3;
+    box-shadow: 5px 5px 10px #6f7364;
+    width:300px;
+    height: 300px;
+}
+
+.description2 {
+    grid-column: 5/7;
+    grid-row: 3/5;
+    width:320px;
+    margin:0;
+}
+
+.river3 {
+    grid-column: 8/10;
+    grid-row: 2/3;
+}
+
+.riverimg3 {
+    border: 10px solid #d9c2a3;
+    box-shadow: 5px 5px 10px #6f7364;
+    width:300px;   
+    height: 300px; 
+}
+
+.description3 {
+    grid-column: 8/10;
+    grid-row: 3/5;
+    width:320px;
+    margin:0;
+}
+
+main p {
+    font-family: var(--paragraph-font);
+    font-size:.9em;
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-left: 20px;
+    padding-right:20px;
+    background-color: #d9c2a3;
+    box-shadow: 5px 5px 10px #6f7364;
+
+}
+
+footer {
+    background-color:rgba(54, 129, 129, 0.7);
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border:5px solid #d9c2a3;
+}
+
+footer p {
+    font-size: 1.2em;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}
+
+footer a {
+    color:white;
+    text-decoration: none;
+    text-align: center;
+}
+
+footer a:hover {
+    background-color: rgb(12, 224, 220);
+    color: rgba(33, 120, 68, 0.7);
+}
+
+footer .social img{
+    padding-top: 15px;
+}
+
+#fb{
+    width: 150px;
+}
+
+#twit {
+    width: 75px;
+}
+
+#insta {
+    width: 75px;
+}
