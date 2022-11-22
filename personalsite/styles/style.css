@@ -57,7 +57,7 @@ body {
     font-size: 22px;
     margin: 0;
     padding: 0;
-    background-image: url(../images/background.jpg) ;
+    background: url(../images/background.jpg) ;
 }
 
 nav {
@@ -100,7 +100,7 @@ nav a {
 }
 
 .first{
-    background-image:url(../images/background1.jpg);
+    background:url(../images/background1.jpg);
     margin-top: 50px;
     width: 60%;
     border: .5em solid var(--nav-hover-background-color);
@@ -118,7 +118,7 @@ nav a {
     text-align: center;
     margin-top: 50px;
     border: .5em solid var(--nav-link-color);
-    background-image:url(../images/background2.jpg);
+    background:url(../images/background2.jpg);
     max-width: 500px;
     overflow-wrap: break-word;
     width:500px;
@@ -152,7 +152,7 @@ nav a {
 
     text-align: center;
     border: .5em solid var(--nav-link-color);
-    background-image:url(../images/background2.jpg);
+    background:url(../images/background2.jpg);
     max-width: 400px;
     overflow-wrap: break-word;
     width:400px;
@@ -173,7 +173,7 @@ nav a {
 
     text-align: center;
     border: .5em solid var(--nav-link-color);
-    background-image:url(../images/background2.jpg);
+    background:url(../images/background2.jpg);
     max-width: 400px;
     overflow-wrap: break-word;
     width:400px;
