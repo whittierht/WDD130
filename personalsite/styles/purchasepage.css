@@ -56,7 +56,7 @@ body {
     font-size: 22px;
     margin: 0;
     padding: 0;
-    background: url(./images2/background.jpg);
+    background: url(./images2/background.jpg) ;
 }
 
 nav {
