@@ -118,7 +118,7 @@ nav a {
     text-align: center;
     margin-top: 50px;
     border: .5em solid var(--nav-link-color);
-    background-image:url(/personalsite/images/background2.webp);
+    background-image:url(/personalsite/images/background2.jpg);
     max-width: 500px;
     overflow-wrap: break-word;
     width:500px;
@@ -152,7 +152,7 @@ nav a {
 
     text-align: center;
     border: .5em solid var(--nav-link-color);
-    background-image:url(/personalsite/images/background2.webp);
+    background-image:url(/personalsite/images/background2.jpg);
     max-width: 400px;
     overflow-wrap: break-word;
     width:400px;
@@ -173,7 +173,7 @@ nav a {
 
     text-align: center;
     border: .5em solid var(--nav-link-color);
-    background-image:url(/personalsite/images/background2.webp);
+    background-image:url(/personalsite/images/background2.jpg);
     max-width: 400px;
     overflow-wrap: break-word;
     width:400px;
