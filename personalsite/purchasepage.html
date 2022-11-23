@@ -21,6 +21,66 @@
             </nav>
         </header>
 
+        <main class="picture">
+            <section class="thanks">
+                <img class="thanku" src="images/thankyou.png" alt="thankyou"/>
+            </section>
+        </main>
+
+        <main class="line2">
+            <section class="purchase">
+                <div id="feedback"></div>
+
+
+                <form action="/my-handling-form-page" method="post">
+                    
+                    <ul>
+                        <li>
+                        <label for="name">Game Name:</label>
+                        <input type="text" id="name" name="user_name" />
+                        </li>
+                        <li>
+                        <label for="mail">Your Email:</label>
+                        <input type="email" id="mail" name="user_email" />
+                        </li>
+                        <li>
+                        <label for="msg">Card Number:</label>
+                        <input type="text" id="card info" name="user_cardnumber"/>
+                        </li>
+                        <li>
+                        <label for="msg">Expiration Date:</label>
+                        <input type="text" id="card info2" name="user_carddate"/>
+                        </li>
+                        <li>
+                        <label for="msg">Security Code:</label>
+                        <input type="text" id="card info3" name="user_cardcode"/>
+                        </li>
+                        <li class="button">
+                            <button type="submit">Purchase your product</button>
+                        </li>
+                    </ul>
+                </form>
+
+                <script>
+                    const feedbackElement = document.getElementById('feedback');
+                    const formElement = document.forms[0];
+                    formElement.addEventListener('submit', function(e) {
+                        e.preventDefault();
+                        feedbackElement.innerHTML = 'Hello '+ formElement.user_name.value +'! Thank you for your purchase. Here is your download code: AF59-FR89-XC87-PO85!';
+                        feedbackElement.style.display = "block";
+                        document.body.classList.toggle('moveDown');
+                    });
+                </script>
+            </section>
+
+            <section class="buynow">
+                
+                    <img class="buyit" src="images/buynow.webp" alt="buynowbutton"/>
+                    
+            </section>
+
+        </main>
+
         <footer>
             <p>Games on Top &copy; 2022 - Hyrum Whittier</p>
             <p>
